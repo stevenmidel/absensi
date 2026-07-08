@@ -2,7 +2,7 @@
 session_start();
 
 /* ===== KONEKSI DB ===== */
-$conn = new mysqli("localhost", "root", "", "absensi_db");
+$conn = new mysqli("mysql", "absensi", "", "absensi_db");
 if ($conn->connect_error) {
     $_SESSION['alert'] = [
         'type' => 'error',
