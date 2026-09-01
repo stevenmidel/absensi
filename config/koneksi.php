@@ -1,8 +1,8 @@
 <?php
 
-$host = "localhost";
+$host = "mysql";
 $user = "root";
-$pass = "";
+$pass = "root123";
 $db   = "absensi_db";
 
 $conn = new mysqli(
